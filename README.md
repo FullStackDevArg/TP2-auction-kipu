@@ -1,7 +1,7 @@
 # 🛒 Subasta Inteligente en Solidity
 
 Este repositorio contiene un contrato inteligente de subasta escrito en Solidity. El contrato permite realizar subastas con las siguientes características:
-
+- Tiempo de duracion en minutos (2880 minutos desde su publicacion).
 - Oferta mínima inicial (precio base).
 - Múltiples ofertas por usuario.
 - Reembolsos parciales del exceso de ofertas anteriores.
