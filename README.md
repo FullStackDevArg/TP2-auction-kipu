@@ -13,8 +13,6 @@ Este repositorio contiene un contrato inteligente de subasta escrito en Solidity
 
 - `contracts/Auction.sol`: Contrato principal de subasta.
 - `docs/ARCHITECTURE.md`: Documentación técnica detallada del contrato.
-- `scripts/`: Scripts de despliegue (opcional).
-- `test/`: Tests automatizados (opcional).
 
 ## 🚀 Despliegue
 
