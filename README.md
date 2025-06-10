@@ -1,25 +1,25 @@
-# 🛒 Subasta Inteligente en Solidity
+# 🛒 Smart Auction in Solidity
 
-Este repositorio contiene un contrato inteligente de subasta escrito en Solidity. El contrato permite realizar subastas con las siguientes características:
-- Tiempo de duracion en minutos (2880 minutos desde su publicacion).
-- Oferta mínima inicial (precio base).
-- Múltiples ofertas por usuario.
-- Reembolsos parciales del exceso de ofertas anteriores.
-- Comisión del 2% aplicada a cada transacción.
-- Extensión automática de tiempo si se ofertan los últimos 10 minutos.
-- Eventos para seguimiento del estado de la subasta.
+This repository contains a smart auction contract written in Solidity. The contract allows auctions with the following characteristics:
+- Duration in minutes (2880 minutes from publication).
+- Minimum initial bid (base price).
+- Multiple bids per user.
+- Partial refunds for excess bids from previous bids.
+- 2% commission applied to each transaction.
+- Automatic time extension if bids are placed in the last 10 minutes.
+- Events to track the auction status.
 
-## 📁 Estructura del proyecto
+## 📁 Project Structure
 
-- `contracts/Auction.sol`: Contrato principal de subasta.
-- `docs/ARCHITECTURE.md`: Documentación técnica detallada del contrato.
+- `contracts/Auction.sol`: Main auction contract.
+- `docs/ARCHITECTURE.md`: Detailed technical documentation for the contract.
 
-## 🚀 Despliegue
+## 🚀 Deployment
 
-El contrato está desplegado en la dirección:
+The contract is deployed to the address:
 
 **[0x8c27e3bbcd2d1d63103086ae7b9875dec6390fbf](https://etherscan.io/address/0x8c27e3bbcd2d1d63103086ae7b9875dec6390fbf)**
 
-## 🔐 Licencia
+## 🔐 License
 
-Este proyecto está licenciado bajo MIT.
+This project is licensed under the MIT License.
